@@ -4,7 +4,7 @@ Render JavaScript-heavy websites as text using Playwright and w3m.
 
 ## Description
 
-`web2text` is a command-line tool that uses Playwright to render JavaScript-heavy websites and w3m to convert the rendered HTML into readable text. It's useful for users who want to browse modern web content in a text-only format.
+`web2text` is a command-line tool that uses Playwright to render JavaScript-heavy websites and w3m to convert the rendered HTML into readable text. Its main purpose is to help create questions for AI language models like ChatGPT by extracting clean, formatted text from websites. It's also useful for users who want to browse modern web content in a text-only format.
 
 ## Requirements
 
@@ -14,16 +14,8 @@ Render JavaScript-heavy websites as text using Playwright and w3m.
 
 ## Installation
 
-### From PyPI
-
 ```bash
-pip install web2text
-```
-
-### From Source
-
-```bash
-git clone https://github.com/yourusername/web2text.git
+git clone https://github.com/HiroshiOkada/web2text.git
 cd web2text
 pip install -e .
 playwright install
